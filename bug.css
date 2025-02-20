@@ -1,0 +1,7 @@
+The following CSS code snippet demonstrates an issue where a pseudo-element selector is not working as expected due to a missing space between the selector and the pseudo-element.  This can cause unexpected behavior or no styling at all.
+
+```css
+.myElement::before{ /* Incorrect - missing space */
+  content: "Hello";
+}
+```
