@@ -1,0 +1,9 @@
+The solution involves adding a space between the selector and the pseudo-element. This clarifies the selector's intent for the CSS parser.
+
+```css
+.myElement ::before { /* Correct - space added */
+  content: "Hello";
+}
+```
+
+This ensures the `::before` pseudo-element is correctly targeted and styled.
