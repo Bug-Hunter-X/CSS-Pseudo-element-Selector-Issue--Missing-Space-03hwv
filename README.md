@@ -1,0 +1,1 @@
+This repository demonstrates a common but easily overlooked error in CSS: a missing space between the element selector and a pseudo-element (::before or ::after).  The `bug.css` file contains the erroneous code. The corrected code is in `bugSolution.css`.
